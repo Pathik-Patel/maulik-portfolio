@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pathik-portfolio": {
+    "maulik-portfolio": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             
-            "outputPath": "dist/pathik-portfolio",
+            "outputPath": "dist/maulik-portfolio",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "pathik-portfolio:build:production"
+              "buildTarget": "maulik-portfolio:build:production"
             },
             "development": {
-              "buildTarget": "pathik-portfolio:build:development"
+              "buildTarget": "maulik-portfolio:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -70,7 +70,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "pathik-portfolio:build"
+            "buildTarget": "maulik-portfolio:build"
           }
         },
         "test": {
