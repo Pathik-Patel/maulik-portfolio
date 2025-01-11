@@ -45,7 +45,7 @@ import { interval } from 'rxjs';
 })
 export class LandingComponent {
 
-  textArray: string[] = ['Software Engineer', 'Full Stack Developer'];
+  textArray: string[] = ['Automobile Engineer', 'Automobile Engineer'];
   text: string = '';
   currentState: string = 'visible';
   captionVisible: boolean = false;
